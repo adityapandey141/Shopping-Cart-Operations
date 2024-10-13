@@ -81,7 +81,7 @@ function cartTotalPrice(arr) {
 
 app.get('/cart/total-price', (req, res) => {
   let total = cartTotalPrice(cart);
-  res.json({ totaalPrice: total });
+  res.json({ totalPrice: total });
 });
 
 app.listen(port, () => {
